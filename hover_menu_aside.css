@@ -1,0 +1,262 @@
+/*^>✖☺✨⚙💻🔎🔖✉📂📁📌🚀O_O👨‍💻
+😊*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --HEADER-BGCOLOR: black;
+    --HEADER-COLOR: whitesmoke;
+    --PADDING-TB: 3rem;
+    --PADDING-SIDE: 1.5rem;
+}
+
+body {
+    font-size: medium;
+    display: flex;
+    min-height: 100vh;
+    /*background-color: var(--HEADER-COLOR);*/
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+
+}
+
+.header__title {
+    display: flex;
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    flex-flow: column nowrap;
+    border-bottom: 1px solid var(--HEADER-COLOR);
+    padding: var(--PADDING-SIDE)
+}
+
+
+nav {
+    background-color:rgb(70, 80, 99);
+    font-size: medium;
+    display: none;
+     
+    /*animation: showMenu  s ease-in-out forwards;*/
+}
+
+nav ul {
+    display:flex;
+    overflow: scroll;
+    list-style-type: none;
+    flex-flow: column nowrap;
+    gap: 4rem;
+    min-width: 30vw;
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    
+   
+}
+
+nav ul {
+    /*padding: 0.5rem;*/
+    /*border-top: 1px solid var(--HEADER-COLOR);*/
+
+}
+
+:is(header:hover, header:focus-within) nav {
+    display: block;
+    /*overflow-wrap: break-word;
+    white-space: normal;
+    word-wrap: break-word;
+    text-indent: 1rem;*/
+    
+}
+
+a:any-link {
+    color: var(--HEADER-COLOR);
+    text-decoration: none;
+}
+
+.other option{
+    display: none;
+    padding-left: 2rem;
+    color:lightcyan;
+}
+
+ 
+option{
+    line-height: 2rem;
+    font-family:'Courier New', Courier, monospace ;
+    display:contents;
+   
+}
+
+:is(ul li:last-child:hover, ul li:last-child:focus) option {
+    display:inline-table;
+    padding-top: 1rem;
+    line-height: 2rem;
+    padding-left: 1.85rem;
+}
+
+.icon {
+    font: 10px;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.icon:hover {
+/* what to do to make icons rotate when hover */
+}
+
+:is(li option:hover, li option:focus) .icon {
+    transform: rotate(360deg);  /* that is not working*/
+}
+
+#myProgress {
+    border-radius: 2rem 2rem 2rem 2rem;
+    /*border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;*/
+    display: none;
+    width: 50%;
+    height: 20px;
+    background-color: #ddd ;
+} 
+
+p {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    /*padding-left: 3rem;*/
+}
+
+#myBar0 {
+    border-radius: 2rem 2rem 2rem 2rem;
+    /*border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;*/
+    height: 20px;
+    width: 56%;
+    background-color:cornflowerblue;
+    text-align: center;
+    line-height: 20px;
+    
+
+}
+
+
+#myBar1 {
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 30%;
+    height: 20px;
+    text-align: center;
+    background-color:cornflowerblue;
+    line-height: 20px;
+    
+}
+
+#myBar2 {
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 50%;
+    height: 20px;
+    background-color: cornflowerblue;
+    line-height: 20px;
+    text-align: center;
+}
+
+#myBar3 {
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 15%;
+    height: 20px;
+    background-color: cornflowerblue;
+    line-height: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#myBar4 {  
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 75%;
+    height: 20px;
+    background-color:cornflowerblue;
+    line-height: 20px;
+    text-align: center;
+}
+
+#myBar5 {
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 43%;
+    height: 20px;
+    background-color:cornflowerblue;
+    line-height: 20px;
+    text-align: center;
+}
+
+.form {
+    display:contents;
+    text-align:justify;
+    
+}
+
+:is(ul li:hover, ul li:focus) #myProgress {
+    display:inline-flex;
+    overflow: auto;
+
+}
+
+:is(ul li:hover, ul li:focus) #num {
+    padding-left: 20rem;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
